@@ -8,15 +8,9 @@ public class Vizitka {
     private String email;
     private String telefon;
     private String web;
-    // private String celaAdresa;
+    private String celaAdresa;
 
-    //public String getCelaAdresa() {
-     //   return celaAdresa;
-   // }
 
-    //public void setCelaAdresa(String celaAdresa) {
-     //   this.celaAdresa = celaAdresa;
-    //}
 
     public Vizitka (){
 
