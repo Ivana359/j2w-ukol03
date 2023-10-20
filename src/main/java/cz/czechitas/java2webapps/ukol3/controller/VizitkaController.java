@@ -14,7 +14,7 @@ import java.util.List;
 @Controller
 public class VizitkaController {
 
-  private List<Vizitka> seznamVizitek = List.of(
+  private final List<Vizitka> seznamVizitek = List.of(
           new Vizitka("Richard Dobrý", "Tlamagames", "Dlážděná 78", "Tmaň 26721", "info@tlamagames.com","www.tlamagames.com","+420 444555666"),
           new Vizitka("Lenka Láskorádová", "Zatrolené hry", "Holandská 123", "Beroun 26601", null,"www.seznam.cz","777444111"),
           new Vizitka("Věra Skálová", "Planeta her", "Nad Stadionem 359", "Králův Dvůr 26701", "email01@seznam.cz","www.web.cz","777444222"),
